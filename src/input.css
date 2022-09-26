@@ -1,0 +1,197 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "apple";
+    src: url("../fonts/4iCv6KVjbNBYlgoCjC3jsGyN.woff2");
+}
+body{
+    font-family: "apple";
+    background-color: #F9F9F9; 
+}
+.nav_1{
+    background-color: #F9F9F9; 
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.nav_1_item li{
+   display: inline-flex;
+   gap: 5px;
+   margin-right: 22px;
+   font-size: 16px;
+}
+.nav_1_item  .last{
+    margin-right: 0px !important;
+ }
+.header_1{
+    display: flex;
+    gap: 70px;
+    margin-top: 20px;
+
+}
+.header_1_img{
+    margin: auto;
+}
+.header_1_list{
+    flex: 1;
+    margin-top: 5px;
+}
+.header_1_list li {
+    display: inline-flex;
+    margin-right: 22px;
+    cursor: pointer;
+}
+.header_1_list li:hover{
+    text-decoration: underline;
+    text-decoration-color: #006EAA;
+    text-underline-offset: 8px;
+}
+.header_1_rightside{
+    display: flex;
+
+}
+.nav_1{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.header_1{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.nav_2{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 20px;
+    position: sticky;
+    top: 0;
+    /* padding: 8px; */
+}
+.nav_2_list{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
+.nav_2_list li{
+    display: inline-flex;
+    margin-right: 2px;
+}
+.nav_2_button{
+    display: flex;
+    gap: 12px;
+    background-color: #00E6E3;
+    padding: 0;
+    margin: 0;
+    padding: 17px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.nav_2_button img{
+    margin: auto;
+}
+.section_1{
+    background-image: url("https://prod.ucwe.capgemini.com/wp-content/uploads/2021/08/Capgemini_Industries-Media-and-Entertainment.jpg");
+    height: 56vh;
+    background-position: center;
+    background-size: cover;
+    position: relative !important;
+    margin-top: -30px;
+    z-index: -1;
+
+}
+.section_1_div_1{
+ position: absolute;
+ color: #fff;
+ background-image: linear-gradient(239deg,#007bbd,#003f61);
+ opacity: .9;
+ border-radius: 4px;
+ box-shadow: 0 25px 100px 0 rgb(0 0 0 / 15%);
+ align-items: flex-start;
+ min-height: calc((280/16)*1rem);
+ margin-top: calc(-273px + 3rem);
+ width: auto !important;
+ padding: 2rem;
+ display: flex;
+ text-align: center;
+ bottom: -60px;
+ left: 130px;
+}
+.section_1_div_1 p{
+    margin: auto;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 48px;
+    color: #15011d;
+    letter-spacing: .12px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #fff;
+    word-break: break-word;
+}
+.section_1_img{
+    width: 100%;
+    margin-top: 20px;
+}
+.section_2{
+    display: flex;
+    margin-top: 120px;
+    padding-left: 3%;
+    padding-right: 3%;
+    gap: 70px;
+}
+.section_2_ul li{
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.section_2_ul{
+    margin-top: 30px;
+}
+.section_2_ul li:hover{
+    background-color: #00E6E3;
+    border: 1px solid #00E6E3;
+}
+.section_2_div_p_1{
+    font-size: 2.25rem;
+    color: #15011d;
+    letter-spacing: .12px;
+    line-height: 48px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.section_2_div_p_2{
+    font-size: 1.2rem;
+    color: #15011d;
+    letter-spacing: .4px;
+    line-height: 24px;
+    font-family: "Ubuntu";
+    font-weight: 300;
+    text-align: left;
+    padding-top: 1.5rem;
+    margin-bottom: 10px;
+}
+.section_2_div_p_3{
+    font-size: 1.2rem;
+    color: #15011d;
+    letter-spacing: .4px;
+    line-height: 24px;
+    font-family: "Ubuntu";
+    font-weight: 300;
+    text-align: left;
+    padding-top: 1.5rem;
+}
+.section_3{
+    background-image: url("https://prod.ucwe.capgemini.com/wp-content/uploads/2020/08/Capgemini_Client-stories_-American-Media-and-Entertainment-conglomerate.jpg");
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+}
